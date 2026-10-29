@@ -29,7 +29,6 @@ h1
 }
 
 .exemplo1
-
 {
     border: 1px solid rgb(167, 13, 178);
     border-radius: 10px;
@@ -38,21 +37,18 @@ h1
 }
 
 .centralizado
-
 {
     display: flex;
     justify-content: center;
 }
 
 .inicio
-
 {
     display: flex;
     justify-content: flex-start;
 }
 
 .fim
-
 {
     display: flex;
     justify-content: flex-end;
@@ -65,14 +61,12 @@ h1
 }
 
 .between
-
 {
     display: flex;
     justify-content: space-between;
 }
 
 .exemplo2
-
 {
     border: 1px solid rgb(167, 13, 178);
     border-radius: 10px;
@@ -83,22 +77,45 @@ h1
 } 
 
 .meio
-
 {
     display: flex;
     align-items: center;
 }
 
 .topo
-
 {
     display: flex;
     align-items: flex-start;
 }
 
 .rodape
-
 {
     display: flex;
     align-items: flex-end;
+}
+
+.exemplo4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.linha
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linha p
+{
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(148, 73, 219);
+    color: rgb(241, 188, 251);
+
+    width: 100px;
+    height: 50px;
 }
