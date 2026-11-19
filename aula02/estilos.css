@@ -132,16 +132,36 @@ h1
 .menu
 {
     display: flex;
-    height: 50px;
+    height: 100px;
 
     background-color: #aa50ff;
     color: rgb(214, 170, 255);
     font-size: 25px;
     
     justify-content: space-around;
+    align-items: center;
+}
+
+.menu img
+{
+    height: 75px;
 }
 
 .opcoes
 {
     display: flex;
+}
+
+.opcoes a
+{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.opcoes a:hover
+{
+    color: #6504c0;
+    text-decoration: underline;
+    text-decoration-color: #6504c0;
 }
